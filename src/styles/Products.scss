@@ -1,0 +1,54 @@
+//variabls 
+$bkcolor: #252a34;
+$color:#fff;
+$active:#ff2e63;
+
+.products{
+   .alert{
+      display: none;
+      position: fixed;
+      top:0;
+      width:100%;
+      z-index:99999
+   }
+    h1{
+        padding:40px 0 30px 0;
+    }
+    .item{
+        text-align: center;
+        padding:20px 0;
+        background-color:$color;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        margin-bottom: 40px;
+       img{
+        transition: all .5s ease-in-out;
+       }
+        &:hover img{
+            transform: scale(1.1);
+            transition: all .5s ease-in-out;
+        }
+        &:hover{
+            box-shadow:0px 0px 15px 1px $bkcolor;
+            transition: all .5s ease-in-out;
+        }
+        .detils{
+            padding: 20px 20px 10px 20px;
+            background:#f3f3f3;
+        }
+    }
+    .buy{
+            position: absolute;
+            top: 197px;
+            font-size: 24px;
+            right: 19px;
+           transition: all .5s ease-in-out;
+           color:$active;
+           cursor: pointer;
+           &:hover{
+               color:$bkcolor;
+               transition: all .5s ease-in-out;
+           }
+       }
+}

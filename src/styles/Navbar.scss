@@ -1,0 +1,29 @@
+
+//variabls 
+$bkcolor: #252a34;
+$color:#fff;
+$active:#ff2e63;
+nav{
+    background-color:$bkcolor;
+    color:$color;
+    padding:30px;
+    span{
+        margin-right: 10px;
+    }
+    .links{
+        color:$color;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            text-decoration: none;
+            color:$active;
+            transition: all .5s ease-in-out;
+        }
+        i{
+            margin-right: 10px
+        }
+    }
+    .active{
+        color:$active
+    }
+}

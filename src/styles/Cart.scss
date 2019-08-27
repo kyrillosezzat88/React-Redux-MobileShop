@@ -1,0 +1,45 @@
+.Product{
+    margin-top:50px;
+    .titles{
+        background-color:#1c1c11;
+        border: 1px solid #1c1c11;
+        color:#fff;
+        padding:15px 5px;
+    }
+    .item{
+        border:1px solid #1c1c1c;
+        button{
+            padding:1px 10px;
+            background:#1c1c1c;
+            color:#ffff;
+            margin: 0;
+            font-weight: bold;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                background-color:#ff2e63;
+                transition: all .5s ease-in-out;
+            }
+        }
+        #quanti{
+            padding:0px 10px;
+    
+            margin-top:20px;
+            border:1px solid #000;
+        }
+        .fa-trash{
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+            color: #1c1c1c;;
+            &:hover{
+                color:#ff2e63;
+                transition: all .5s ease-in-out
+            }
+        }
+    }
+   
+}
+.meg{
+    margin-top:50px;
+    text-transform: capitalize;
+}

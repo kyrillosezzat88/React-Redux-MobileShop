@@ -1,0 +1,18 @@
+.Recite{
+    margin-top:50px;
+    margin-bottom: 0;
+    button{
+        padding:5px 25px;
+        border-radius: 12px;
+        outline: none;
+        color:#fff;
+        background-color:#252a34;
+        transition: all .5s ease-in-out;
+        cursor:pointer;
+        margin:0;
+        &:hover{
+            background-color:#ff2e63;
+            transition: all .5s ease-in-out
+        }
+    }
+}
