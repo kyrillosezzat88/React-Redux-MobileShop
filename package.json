@@ -2,7 +2,7 @@
   "name": "shop-cart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kyrillosezzat88.github.io/React-Redux-E-commerce",
+  "homepage": "http://kyrillosezzat88.github.io/React-Redux-MobileShop",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
